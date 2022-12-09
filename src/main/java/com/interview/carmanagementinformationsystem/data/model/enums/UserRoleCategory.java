@@ -1,6 +1,6 @@
 package com.interview.carmanagementinformationsystem.data.model.enums;
 
-public enum UserRole {
+public enum UserRoleCategory {
     MANAGER,
     ADMINISTRATOR,
     GENERAL_SUPERVISOR,

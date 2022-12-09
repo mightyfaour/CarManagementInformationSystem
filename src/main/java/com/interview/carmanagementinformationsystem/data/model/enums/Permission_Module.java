@@ -1,2 +1,6 @@
-package com.interview.carmanagementinformationsystem.data.model.enums;public enum Permission_Module {
+package com.interview.carmanagementinformationsystem.data.model.enums;
+
+public enum Permission_Module {
+    MANAGER,
+    SUPERVISOR;
 }

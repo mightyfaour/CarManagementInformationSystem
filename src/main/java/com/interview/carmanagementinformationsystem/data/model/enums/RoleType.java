@@ -1,8 +1,5 @@
 package com.interview.carmanagementinformationsystem.data.model.enums;
 
-
-public enum Slot_Type {
-    FIRSTCLASS,
-    SECONDCLASS,
-    THIRDCLASS;
+public enum RoleType {
+ ROLE_ADMIN, ROLE_USER
 }
