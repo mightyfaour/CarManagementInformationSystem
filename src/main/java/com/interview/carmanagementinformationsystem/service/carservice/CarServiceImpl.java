@@ -5,6 +5,7 @@ import com.interview.carmanagementinformationsystem.data.repositories.CarReposit
 import com.interview.carmanagementinformationsystem.dto.request.carrequest.AddCarRequest;
 import com.interview.carmanagementinformationsystem.dto.request.carrequest.UpdateCarRequest;
 import com.interview.carmanagementinformationsystem.dto.response.carresponse.AddCarResponse;
+import com.interview.carmanagementinformationsystem.dto.response.carresponse.DeleteCarResponse;
 import com.interview.carmanagementinformationsystem.dto.response.carresponse.UpdateCarResponse;
 import com.interview.carmanagementinformationsystem.exception.CarParkException;
 import lombok.AllArgsConstructor;
@@ -33,6 +34,11 @@ public class CarServiceImpl implements CarService{
 
     @Override
     public UpdateCarResponse updateCarDetails(String carnumber, UpdateCarRequest updateCarRequest) throws CarParkException {
+        return null;
+    }
+
+    @Override
+    public DeleteCarResponse deleteCarByCarNumber(String carnumber) throws CarParkException {
         return null;
     }
 

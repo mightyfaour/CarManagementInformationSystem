@@ -33,7 +33,7 @@ public class CarController {
         return new ResponseEntity<>(updateCarResponse, HttpStatus.OK);
     }
 
-    @DeleteMapping("")
+    @DeleteMapping("deletecar")
     public ResponseEntity<?> deleteCarByCarNumber(@PathVariable String carnumber) throws CarParkException{
         return new ResponseEntity<>(carService.deleteCarByCarNumber(carnumber), HttpStatus.OK);
     }

@@ -12,5 +12,6 @@ public interface CarService {
 
     UpdateCarResponse updateCarDetails(String carnumber, UpdateCarRequest updateCarRequest) throws CarParkException;
 
+
     DeleteCarResponse deleteCarByCarNumber(String carnumber) throws CarParkException;
 }
